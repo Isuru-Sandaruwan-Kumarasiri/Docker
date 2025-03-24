@@ -10,7 +10,7 @@ WORKDIR /app
 COPY . .
 
 #run the app
-CMD [ "node","index.js" ]
+CMD ["node","index.js"]
 
 # this command run on the termianal
 # <docker build -t my-first-image .> 
@@ -18,5 +18,8 @@ CMD [ "node","index.js" ]
 
 # To check the image
 # <docker images>
+
+# create a container
+# <docker run  my-first-image>
 
 
